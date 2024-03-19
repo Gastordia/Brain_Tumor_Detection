@@ -46,6 +46,7 @@ This repository contains code for a Convolutional Neural Network (CNN) model bui
   dense (Dense)                (None, 256)               3686656   
    _________________________________________________________________
   dense_1 (Dense)              (None, 1)                 257       
+  
    =================================================================
   Total params: 3,696,625
   Trainable params: 3,696,625
