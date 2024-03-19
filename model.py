@@ -120,3 +120,8 @@ if resultat < 0.5:
     print(f'the brain has cancer')
 else:
     print(f'the brain is normal')
+
+
+# save the model
+from tensorflow.keras.models import load_model
+model.save(os.path.join('models','imageclassifier.h5'))
